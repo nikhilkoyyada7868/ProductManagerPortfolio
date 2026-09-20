@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaAws, FaDocker, FaJava } from "react-icons/fa";
+import { FaAws, FaJava } from "react-icons/fa";
 import { BsClipboardData, BsDiagram3, BsKanban } from "react-icons/bs";
 import { CgFigma } from "react-icons/cg";
 import { TbChartRadar, TbSparkles } from "react-icons/tb";
@@ -8,36 +8,41 @@ const skills = [
   { id: 1, name: "Product Strategy", icon: <BsKanban size={46} /> },
   { id: 2, name: "Data Analysis", icon: <BsClipboardData size={46} /> },
   { id: 3, name: "Design Thinking", icon: <CgFigma size={46} /> },
-  { id: 4, name: "AI Prototyping", icon: <TbSparkles size={46} /> },
+  { id: 4, name: "LLM Products", icon: <TbSparkles size={46} /> },
   { id: 5, name: "Process Improvement", icon: <BsDiagram3 size={46} /> },
   { id: 6, name: "Java", icon: <FaJava size={46} /> },
   { id: 7, name: "AWS", icon: <FaAws size={46} /> },
-  { id: 8, name: "Docker", icon: <FaDocker size={46} /> },
+  { id: 8, name: "Technical Fluency", icon: <BsDiagram3 size={46} /> },
 ];
 
 const radarSkills = [
   { label: "Product", value: 92 },
   { label: "Data", value: 86 },
-  { label: "AI Tools", value: 82 },
+  { label: "AI Products", value: 84 },
   { label: "Execution", value: 94 },
   { label: "Tech", value: 88 },
 ];
 
 const timeline = [
   {
+    period: "Jun 2026 - Present",
+    title: "Product Manager, Amazon",
+    body: "Working on AI-enabled internal products with a focus on discovery, prioritization, evaluation quality, stakeholder alignment, and measurable operational leverage.",
+  },
+  {
     period: "2024 - 2026",
     title: "MBA, IIM Bangalore",
-    body: "Building a product management foundation through strategy, market research, case competitions, and live product projects.",
+    body: "Built a product management foundation through strategy, customer research, market analysis, case competitions, and live product work.",
   },
   {
     period: "Apr 2025 - May 2025",
-    title: "AFBP Program Manager Intern, Amazon",
-    body: "Led root-cause analysis across fulfillment operations and proposed upstream classification mechanisms for better handling decisions.",
+    title: "AFBP MBA Intern, Amazon",
+    body: "Worked on a customer-backed operations problem, using field research, process mapping, stakeholder feedback, and data analysis to convert ambiguity into actionable requirements.",
   },
   {
     period: "2020 - 2024",
     title: "Software Engineer, Lookout",
-    body: "Partnered with PMs to deliver 35+ production features, improve performance, onboard enterprise customers, and reduce operational friction.",
+    body: "Partnered with PMs to deliver 35+ customer-facing features, improve performance, support enterprise clients, and reduce operational friction across data and security systems.",
   },
   {
     period: "2016 - 2020",

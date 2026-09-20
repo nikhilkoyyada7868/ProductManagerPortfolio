@@ -41,7 +41,7 @@ export default function Home() {
                 sequence={[
                   'I am Nikhil Koyyada',
                   1000,
-                  'I build product clarity',
+                  'I build AI-aware products',
                   1000,
                 ]}
                 speed={10}
@@ -69,7 +69,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 1 }}
           >
-            Product Manager with a software engineering foundation, MBA experience at IIM Bangalore, and hands-on work across fintech, AI automation, customer platforms, and operations. I turn ambiguous problems into structured product bets, prototypes, and measurable execution.
+            Product Manager with an engineering foundation and an MBA from IIM Bangalore. I work across discovery, roadmaps, AI-enabled workflows, data-backed decisions, and technical execution to turn ambiguous problems into useful products.
           </motion.p>
 
           <motion.div
@@ -79,8 +79,8 @@ export default function Home() {
             transition={{ delay: 0.65, duration: 1 }}
           >
             {[
-              ["15+", "features shipped"],
-              ["$100K+", "client onboarded"],
+              ["35+", "features shipped"],
+              ["100M+", "records secured"],
               ["700+", "case teams"],
             ].map(([value, label]) => (
               <div key={label} className="border-2 border-black rounded p-3">

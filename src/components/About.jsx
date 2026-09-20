@@ -29,15 +29,15 @@ export default function About() {
         </h2>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-5 lg:mt-10">
-          I am a Product Manager with a strong engineering base and an MBA journey at IIM Bangalore. My work sits at the intersection of customer insight, data analysis, AI-assisted product building, and execution across cross-functional teams.
+          I am a Product Manager with a strong engineering base and an MBA from IIM Bangalore. My work sits at the intersection of customer insight, data analysis, AI-assisted product thinking, and execution across cross-functional teams.
         </p>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-5">
-          At Amazon, I led root-cause analysis for recurring operational defects and translated fulfillment-center insights into scalable classification and early-detection recommendations. Before that, at Lookout, I partnered with Product Managers to ship 35+ production features and platform improvements across data, security, and infrastructure.
+          I bring product judgment with enough technical depth to work closely with engineers on APIs, data systems, AI workflows, evaluation loops, and scalable delivery. Before moving deeper into product, I shipped customer-facing features and platform improvements across data, security, and cloud infrastructure at Lookout.
         </p>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-5">
-          I like building fast, validating sharply, and turning ambiguity into structured product decisions. Recent projects explore MSME fintech, AI customer support, behavior tracking, and lightweight consumer experiences.
+          I like building fast, validating sharply, and turning ambiguity into structured product decisions. Recent public projects explore MSME fintech, AI customer support, behavior tracking, and lightweight consumer experiences.
         </p>
       </motion.div>
     </div>

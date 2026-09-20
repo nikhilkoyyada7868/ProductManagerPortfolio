@@ -103,7 +103,7 @@ export default function Contact() {
             <h2>Something useful</h2>
           </div>
 
-          <p className='text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-6'>I am open to Product Manager roles, product internships, case discussions, AI prototype collaborations, and problem spaces where customer insight and execution both matter.</p>
+          <p className='text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-6'>I am open to product conversations, AI prototype collaborations, case discussions, and problem spaces where customer insight, data, and execution all matter.</p>
 
           <div className='font-semibold text-sm lg:text-xl flex flex-col mt-6 gap-2 lg:gap-4'>
             <motion.a
